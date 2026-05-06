@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "municipality": "Skov Kommune",
+    "language": "da",
+    "lastUpdated": "2026-05-06"
+  },
+  "_note": "Datastrukturen er et forslag — du må gerne ændre i den eller tilføje felter hvis det giver mening for din løsning.",
+  "items": [
+    {
+      "id": "item-1",
+      "type": "article",
+      "title": "Grønne byrum til alle",
+      "description": "Kommunen investerer i grønne, levende byrum hvor borgerne kan mødes, slappe af og opleve naturen midt i byen.",
+      "image": {
+        "url": "https://backoffice.dev.kommuneplatformen.dk/media/g4fciqwb/stockphoto-norrebro-kirkegaard.jpg",
+        "alt": "Grøn kirkegård med træer og stier"
+      },
+      "links": [
+        {
+          "label": "Læs mere om byudviklingen",
+          "url": "/kommunen/projekter/raadmandshaven"
+        },
+        {
+          "label": "Se tidsplan",
+          "url": "/kommunen/projekter/raadmandshaven/tidsplan"
+        }
+      ]
+    },
+    {
+      "id": "item-2",
+      "type": "article",
+      "title": "Naturen er tæt på",
+      "description": "Skov, marker og åbne landskaber ligger lige uden for døren. Kom ud og oplev det grønne bælte der omgiver kommunen.",
+      "video": {
+        "url": "https://backoffice.dev.kommuneplatformen.dk/media/1bxfxz1r/video-1.mp4",
+        "poster": "https://backoffice.dev.kommuneplatformen.dk/media/5k4gsije/olena-bohovyk-3blvilvh9hm-unsplash.jpg",
+        "alt": "Luftoptagelse over skov og markområder"
+      },
+      "links": [
+        {
+          "label": "Udforsk Den grønne ring",
+          "url": "/kommunen/projekter/den-groenne-ring"
+        }
+      ]
+    },
+    {
+      "id": "item-3",
+      "type": "search",
+      "search": {
+        "placeholder": "Hvad kan vi hjælpe med?",
+        "action": "/soeg",
+        "suggestions": [
+          "Byggetilladelse",
+          "Pas og kørekort",
+          "Flytning",
+          "Dagtilbud og pladsanvisning",
+          "Affald og genbrug",
+          "Læge- og gruppeskift"
+        ]
+      }
+    }
+  ]
+}
