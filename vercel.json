@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "functions": {
+    "api/hero.js": {
+      "memory": 128,
+      "maxDuration": 5
+    }
+  }
+}
